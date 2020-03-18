@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout 2</title>
+        <style>
+            div {
+                box-sizing: border-box;
+            }
+            #contenedor-principal {
+                display: flex; 
+                flex-wrap: wrap;
+                border: 1px solid #000000;
+                width: min-content;
+                margin: 0px auto;
+            }
+            #division-roja {
+                background: #ff0000;
+                width: 350px; height: 150px;
+                margin-top: 10px;
+                margin-left: 10px;
+                border: 1px solid #000000;
+            }
+            #division-verde {
+                background: #00ff00;
+                width: 350px; height: 150px;
+                margin-top: 10px;
+                margin-right: 10px;
+                border: 1px solid #000000;
+            }
+            #division-amarilla  {
+                background: #ffff00;
+                width: 700px;
+                height: 125px;
+                margin: 0px 10px 10px 10px;
+                border: 1px solid #000000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor-principal">
+            <div id="division-roja"></div>
+            <div id="division-verde"></div>
+            <div id="division-amarilla"></div>
+        </div>
+    </body>
+</html>

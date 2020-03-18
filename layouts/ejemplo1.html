@@ -1,0 +1,36 @@
+<!Doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Layout 1</title>
+        <style>
+            #contenedor-selectorID {
+                width: 700px; height: auto;
+                border: 1px solid #000000;
+                display: flex; margin: 0px auto;
+            }
+
+            .claseComunAlosDiv-selectorClase {
+                width: 200px; height: 300px;
+                border: 1px solid #000000;
+                margin: 20px;
+            }
+            #contenedorInterno-1 {
+                background: #00ffff;
+            }
+            #contenedorInterno-2 {
+                background: #9900ff;
+            }
+            #contenedorInterno-3 {
+                background: #ffff00;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="contenedor-selectorID">
+            <div id="contenedorInterno-1" class="claseComunAlosDiv-selectorClase"></div>
+            <div id="contenedorInterno-2" class="claseComunAlosDiv-selectorClase"></div>
+            <div id="contenedorInterno-3" class="claseComunAlosDiv-selectorClase"></div>
+        </div>
+    </body>
+</html>
